@@ -84,7 +84,7 @@ img {
 }
 
 nav {
-    background: linear-gradient(#ebe26b,#717171);
+    background: linear-gradient(#919bb8,#8a8787);
     color: #fff;
     margin-bottom: 1vh;
 }
@@ -111,7 +111,7 @@ nav ul li a:hover {
 }
 
 .collapsible {
-    background: linear-gradient(#ebe26b,#717171);
+    background: linear-gradient(#919bb8,#8a8787);
     color: white;
     cursor: pointer;
     padding: 18px;
