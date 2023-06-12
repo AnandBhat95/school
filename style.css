@@ -4,7 +4,7 @@
 
 body {
     font-family: Verdana, sans-serif;
-    background: linear-gradient(90deg, rgb(224, 224, 231) 0%, rgb(232, 232, 241) 35%, rgb(235, 234, 238) 100%);
+    background: linear-gradient(0.25turn, #afdbee, #b7d0f0,#c0eeb2);
 }
 
 .mySlides {
@@ -84,7 +84,7 @@ img {
 }
 
 nav {
-    background-color: #333;
+    background: linear-gradient(#ebe26b,#717171);
     color: #fff;
     margin-bottom: 1vh;
 }
@@ -111,7 +111,7 @@ nav ul li a:hover {
 }
 
 .collapsible {
-    background-color: #333;
+    background: linear-gradient(#ebe26b,#717171);
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -146,7 +146,7 @@ nav ul li a:hover {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background: linear-gradient(#e7eee7,transparent);
 }
 
 .footer-class {
@@ -160,4 +160,32 @@ nav ul li a:hover {
     background:#333;
 }
 
-  
+#language-dropdown {
+    position: relative;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    color: #333;
+    z-index: 1;
+    padding: 1vh;
+  }
+
+  .dropdown-content a {
+    display: block;
+    padding: 4px 0;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .dropdown-content a:hover {
+    color: #9ae1ee;
+  }
+
+  #language-dropdown:hover .dropdown-content {
+    display: block;
+  }
