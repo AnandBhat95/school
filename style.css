@@ -190,3 +190,18 @@ nav ul li a:hover {
   #language-dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .img-cont {
+    max-width: 40%;
+    max-height:100%;
+  }
+  
+  .text-cont {
+    padding-left: 2vh;
+  }
