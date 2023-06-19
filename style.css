@@ -24,16 +24,18 @@ img {
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
+    font-size: 5vh;
     padding: 8px 12px;
     position: absolute;
     text-align: center;
     bottom: 8px;
     width: 100%;
     font-family: monospace;
-    font-size: 3vh;
     font-weight: 600;
+    background: linear-gradient(to right, #ee9207, #360226);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
 /* Number text (1/3 etc) */
@@ -132,17 +134,6 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-.collapsible:after {
-    content: '\002B';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2212";
-}
 
 .content {
     padding: 0 18px;
@@ -273,7 +264,6 @@ nav ul li a:hover {
   .achievement-description {
     margin-bottom: 0;
   }
-
   @media only screen and (max-width: 700px) {
     .flex-img {
         display: flex;
